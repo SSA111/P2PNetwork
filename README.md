@@ -1,26 +1,29 @@
-Node Arguments: 
- - IP Address 
- - Port 
- - Neighbour Node IP Address (Optional)
- - Neighbour Node Port (Optional)
+# P2P Network
 
-Example 1 : java -cp . Node localhost 1025 
-Example 2 : java -cp . Node localhost 1025 localhost 1026
+Node Arguments:
 
-PutClient Arguments: 
- - IP Address Of Node  
- - Port Of Node 
- - Key 
- - Message 
+- IP Address
+- Port
+- Neighbour Node IP Address (Optional)
+- Neighbour Node Port (Optional)
+
+Example 1 : java -cp . Node localhost 1025 Example 2 : java -cp . Node localhost 1025 localhost 1026
+
+PutClient Arguments:
+
+- IP Address Of Node
+- Port Of Node
+- Key
+- Message
 
 Example 1 : java -cp . PutClient localhost 1025 1 A
 
-GetClient Arguments: 
- - IP Address
- - IP Address Of Node 
- - Port Of Node 
- - Key 
+GetClient Arguments:
 
-Example 1 : java -cp . GetClient localhost localhost 1025 1  
+- IP Address
+- IP Address Of Node
+- Port Of Node
+- Key
 
+Example 1 : java -cp . GetClient localhost localhost 1025 1
 
